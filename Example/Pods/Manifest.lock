@@ -1,0 +1,23 @@
+PODS:
+  - DeviceKit (4.5.2)
+  - FitKit (0.0.1):
+    - DeviceKit (= 4.5.2)
+
+DEPENDENCIES:
+  - FitKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DeviceKit
+
+EXTERNAL SOURCES:
+  FitKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DeviceKit: c622fc19f795f3e0b4d75d6d11b26604338cdab3
+  FitKit: f33b39da05de1eba6146c898e775a7b8c808557c
+
+PODFILE CHECKSUM: 509e57473dc99344cf8f61427d9dc9d413fab6eb
+
+COCOAPODS: 1.11.2

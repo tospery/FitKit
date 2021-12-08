@@ -1,0 +1,6 @@
+framework module FitKit {
+  umbrella header "FitKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
