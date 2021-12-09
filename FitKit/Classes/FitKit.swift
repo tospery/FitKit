@@ -12,8 +12,15 @@ final public class FitKit {
     
     public static let shared = FitKit()
     
-    private static var dict: [String : [UIInterfaceOrientation : UIEdgeInsets]]?
+    /// 将屏幕分为普通和紧凑两种，这个方法用于判断普通屏幕（也即大屏幕）。
+    /// @note 注意，这里普通/紧凑的标准是 QMUI 自行制定的，与系统 UITraitCollection.horizontalSizeClass/verticalSizeClass 的值无关。只要是通常意义上的“大屏幕手机”（例如 Plus 系列）都会被视为 Regular Screen。
+    /// @NEW_DEVICE_CHECKER
+    public static var isRegularScreen: Bool {
+        let diagonal = Device.current.diagonal
+        return (isPad || (!isZoomedMode && (diagonal == 6.7 || diagonal == 6.5 || diagonal == 6.1 || diagonal == 5.5)))
+    }
     
+    private static var dict: [String : [UIInterfaceOrientation : UIEdgeInsets]]?
     /// 用于获取 isNotchedScreen 设备的 insets，注意对于无 Home 键的新款 iPad 而言，它不一定有物理凹槽，但因为使用了 Home Indicator，所以它的 safeAreaInsets 也是非0。
     /// @NEW_DEVICE_CHECKER
     public static var safeAreaInsetsForDeviceWithNotch: UIEdgeInsets {
@@ -150,5 +157,9 @@ final public class FitKit {
     init() {
         
     }
+    
+//    static func screenSize(inch: Double) -> CGSize {
+//        .zero
+//    }
     
 }
