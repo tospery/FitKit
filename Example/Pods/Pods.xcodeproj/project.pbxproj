@@ -7,36 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07DECD102EA68408967E3EE8F0B1A65B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		0C7056E6867181A4192C4447ED3FF170 /* FitKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4519571F047A15E0CFAD334CE7F001A /* FitKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1290B98899A534E5FA8EC9EBD216A021 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3547174B8F89856F9B1738A03DB39CEB /* CGPoint+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA61E14632B6EE3F91B206AF5054A895 /* CGPoint+Ex.swift */; };
+		4271821EDD83E9F92C964B091AAF5650 /* FitKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F47C6CB005569810CA1BA5C8868578 /* FitKit-dummy.m */; };
 		44FDC841C20165E2DE68E31737A401DC /* DeviceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3999B5917D2FE6E6B28DF178B6E1965 /* DeviceKit-dummy.m */; };
-		46ADA5CE33D818AB145A612D424243C7 /* FitKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A082FFE89BED7F99E69EBBBDC6B77EB2 /* FitKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		681757382400CF17078AB2BD01218F1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		8C47555427608078004BE409 /* CGFloat+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47555327608078004BE409 /* CGFloat+Ex.swift */; };
+		5303F486FB7D3FC159AE30F6FCDACFEE /* CGRect+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB25F0ECE5C08B647133CAFF02E38EF /* CGRect+Ex.swift */; };
 		9846FB6F18E08F0D50995BF41C1C7AC4 /* Pods-FitKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFE08CA7BE668CB9805C5B679AFB6FB /* Pods-FitKit_Example-dummy.m */; };
+		9F2A958FFBEDA1100754CFE84C3B8E91 /* FitKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762F33E1E759492AE6AB689CEE25BBE /* FitKit.swift */; };
 		AE419A0EB119A1B529D3E851011B031C /* DeviceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A33F6E08BDC27A1AE9049076DDE832 /* DeviceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA137C9EDE4FC59BA7A4A8499A84DDF /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06624C1289F6264BC20194D1C81254F0 /* Type.swift */; };
+		C5A13DFF9B7B486B0E4E8B3D313A927A /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C2478247C305C66376FA8ECBDF6079 /* Function.swift */; };
 		C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479FDC8A3863DC0B938FD5660860C9D2 /* Device.generated.swift */; };
 		C79E79B308262206DA132FE2A350DFC3 /* Pods-FitKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD89A0C1163E90820928B009E3AE1AF /* Pods-FitKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9AE3D1005C8FE4CE2AB366BD5A5341A /* FitKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5444F1D05FD51426E13609C750194 /* FitKit-dummy.m */; };
-		F43877F795CBD2F6C11C1BDA4D284D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		CB46596D17453D5D6F249B82D137153D /* CGSize+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB9AD6A1A346EE227F4BE134AB7EAC /* CGSize+Ex.swift */; };
+		D6654ADAE2545E6FB14E271B11B4320D /* CGFloat+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F73FAF09A7CE46B1992CEDBE8C216 /* CGFloat+Ex.swift */; };
+		DAE059127548E7E2372B45072D60C596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		F342F823AA1F57C845D977DED73F141E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A10C2D67B3D117F4D3D413A23B223 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		030B391B4EA595A52B585234DF96B5F9 /* PBXContainerItemProxy */ = {
+		05C1460D17E5DD6D6882B0A7395EF579 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 16CC5DB1F50D77FF0116C5E5239C6DF7;
 			remoteInfo = FitKit;
 		};
-		71AF58F68775F6D481C57B23624420E9 /* PBXContainerItemProxy */ = {
+		3C6C3D0BB8E940A7F346010A5F68213E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
 			remoteInfo = DeviceKit;
 		};
-		F376B60EB5C54F616FD96CCE560245A5 /* PBXContainerItemProxy */ = {
+		F5188AE7F88553C821C05BBA721AD01D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,39 +53,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06624C1289F6264BC20194D1C81254F0 /* Type.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Type.swift; path = FitKit/Classes/Type.swift; sourceTree = "<group>"; };
 		0AFACC3444A9C141518265EEFF12E8BD /* FitKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FitKit; path = FitKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F3F088630E13B57E6980C547B7617E8 /* FitKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FitKit-Info.plist"; sourceTree = "<group>"; };
+		0B1416BBB80D9838C259F14D7B948AC8 /* FitKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FitKit-prefix.pch"; sourceTree = "<group>"; };
+		0E61F14D45E5C23E7CEC98964CCE0F1D /* FitKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FitKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		14A33F6E08BDC27A1AE9049076DDE832 /* DeviceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-umbrella.h"; sourceTree = "<group>"; };
 		18A42E8AE74D61D6287EA67F5E01FBF8 /* Pods-FitKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		207214595289098A4A281F71703920CF /* Pods-FitKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FitKit_Example.modulemap"; sourceTree = "<group>"; };
-		2214571BC833882F48894E4E4BF69DF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		33098CDEC16FE5B874F2C1E6A40562F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3B6980D503D360CB98BF2695DF17B8FC /* Pods-FitKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F8A10C2D67B3D117F4D3D413A23B223 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = FitKit/Classes/Constant.swift; sourceTree = "<group>"; };
 		40F4D05BE161197088F5F47D47261CF6 /* Pods-FitKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		456ECCA634148F86E4206194B5BC20D8 /* FitKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FitKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		479FDC8A3863DC0B938FD5660860C9D2 /* Device.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.generated.swift; path = Source/Device.generated.swift; sourceTree = "<group>"; };
-		4A504EA8E729257B546CF372D1826115 /* FitKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FitKit-prefix.pch"; sourceTree = "<group>"; };
+		4ADBC87568778121C0A62D02F1075F94 /* FitKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FitKit-Info.plist"; sourceTree = "<group>"; };
 		572D44D075371F2AEFAEC775B6C8BA57 /* Pods-FitKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5A9EC7132ECC97B00BD35EB72CC98B89 /* FitKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FitKit.modulemap; sourceTree = "<group>"; };
+		58669B0F962B90BF2FDD4BE65CB43673 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5AD8B57D9C711DB0026C5601AFBA1A33 /* Pods-FitKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitKit_Example-Info.plist"; sourceTree = "<group>"; };
-		6E973C3C4CB5FB30B9F355F326B4A7C0 /* FitKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FitKit.debug.xcconfig; sourceTree = "<group>"; };
 		73C2A6ED7186883AD0BF84E7FBBABECE /* DeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceKit.modulemap; sourceTree = "<group>"; };
 		76B77AC13C31368A53704AE5381244F9 /* Pods-FitKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FitKit_Example"; path = Pods_FitKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BD5444F1D05FD51426E13609C750194 /* FitKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FitKit-dummy.m"; sourceTree = "<group>"; };
 		86A1B8C03C9945C7F76BD36828EC6229 /* Pods-FitKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		87624F15E8DD10A876E9ED3249E318C8 /* FitKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FitKit.release.xcconfig; sourceTree = "<group>"; };
-		8C47555327608078004BE409 /* CGFloat+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CGFloat+Ex.swift"; path = "FitKit/Classes/CGFloat+Ex.swift"; sourceTree = "<group>"; };
 		8D346B0BACAF0E195A0850EDE34322CF /* DeviceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.debug.xcconfig; sourceTree = "<group>"; };
-		9521902421957AAFEB118B87E65134BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A082FFE89BED7F99E69EBBBDC6B77EB2 /* FitKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FitKit-umbrella.h"; sourceTree = "<group>"; };
+		8FB25F0ECE5C08B647133CAFF02E38EF /* CGRect+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Ex.swift"; path = "FitKit/Classes/CGRect+Ex.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5348B885476F3C3D6C8AFCCEC3675A6 /* DeviceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-prefix.pch"; sourceTree = "<group>"; };
 		AFFE08CA7BE668CB9805C5B679AFB6FB /* Pods-FitKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitKit_Example-dummy.m"; sourceTree = "<group>"; };
+		B3C2478247C305C66376FA8ECBDF6079 /* Function.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Function.swift; path = FitKit/Classes/Function.swift; sourceTree = "<group>"; };
+		B3F47C6CB005569810CA1BA5C8868578 /* FitKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FitKit-dummy.m"; sourceTree = "<group>"; };
+		BC3F73FAF09A7CE46B1992CEDBE8C216 /* CGFloat+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Ex.swift"; path = "FitKit/Classes/CGFloat+Ex.swift"; sourceTree = "<group>"; };
+		C0DB9AD6A1A346EE227F4BE134AB7EAC /* CGSize+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Ex.swift"; path = "FitKit/Classes/CGSize+Ex.swift"; sourceTree = "<group>"; };
+		CF6A77D18B36DE33FF78C7430F63CCCF /* FitKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FitKit.modulemap; sourceTree = "<group>"; };
 		D13DC9D6B074887452F9DE2FE8D99B46 /* DeviceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceKit-Info.plist"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA61E14632B6EE3F91B206AF5054A895 /* CGPoint+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Ex.swift"; path = "FitKit/Classes/CGPoint+Ex.swift"; sourceTree = "<group>"; };
 		E3999B5917D2FE6E6B28DF178B6E1965 /* DeviceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceKit-dummy.m"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F1255E4DB358F6CC8C1CCC8A1AF24B8C /* FitKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FitKit.debug.xcconfig; sourceTree = "<group>"; };
+		F1841CDF5C6F6D206180CD37D82EFDDA /* FitKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FitKit.release.xcconfig; sourceTree = "<group>"; };
+		F4519571F047A15E0CFAD334CE7F001A /* FitKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FitKit-umbrella.h"; sourceTree = "<group>"; };
 		F7274719FAE2990DC2AB8E6D21969BB7 /* DeviceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.release.xcconfig; sourceTree = "<group>"; };
+		F762F33E1E759492AE6AB689CEE25BBE /* FitKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitKit.swift; path = FitKit/Classes/FitKit.swift; sourceTree = "<group>"; };
 		FDD89A0C1163E90820928B009E3AE1AF /* Pods-FitKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitKit_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,12 +113,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E565DA3E5AED6C119867763DEC9F4F2C /* Frameworks */ = {
+		E297181A9046C519D9E359F9E8C7074C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43877F795CBD2F6C11C1BDA4D284D01 /* Foundation.framework in Frameworks */,
-				681757382400CF17078AB2BD01218F1B /* UIKit.framework in Frameworks */,
+				07DECD102EA68408967E3EE8F0B1A65B /* Foundation.framework in Frameworks */,
+				DAE059127548E7E2372B45072D60C596 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +131,31 @@
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AAA1DFC9A1832362202D473FD05AD8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6A77D18B36DE33FF78C7430F63CCCF /* FitKit.modulemap */,
+				B3F47C6CB005569810CA1BA5C8868578 /* FitKit-dummy.m */,
+				4ADBC87568778121C0A62D02F1075F94 /* FitKit-Info.plist */,
+				0B1416BBB80D9838C259F14D7B948AC8 /* FitKit-prefix.pch */,
+				F4519571F047A15E0CFAD334CE7F001A /* FitKit-umbrella.h */,
+				F1255E4DB358F6CC8C1CCC8A1AF24B8C /* FitKit.debug.xcconfig */,
+				F1841CDF5C6F6D206180CD37D82EFDDA /* FitKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FitKit";
+			sourceTree = "<group>";
+		};
+		2427B175EF33987A87ECA7441DD67049 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E61F14D45E5C23E7CEC98964CCE0F1D /* FitKit.podspec */,
+				58669B0F962B90BF2FDD4BE65CB43673 /* LICENSE */,
+				33098CDEC16FE5B874F2C1E6A40562F1 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3670C01999D11D2EB26927D4B1F80D77 /* Products */ = {
@@ -146,21 +185,6 @@
 			path = "Target Support Files/Pods-FitKit_Example";
 			sourceTree = "<group>";
 		};
-		5602E76B47D409E02D725299806F4481 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5A9EC7132ECC97B00BD35EB72CC98B89 /* FitKit.modulemap */,
-				7BD5444F1D05FD51426E13609C750194 /* FitKit-dummy.m */,
-				0F3F088630E13B57E6980C547B7617E8 /* FitKit-Info.plist */,
-				4A504EA8E729257B546CF372D1826115 /* FitKit-prefix.pch */,
-				A082FFE89BED7F99E69EBBBDC6B77EB2 /* FitKit-umbrella.h */,
-				6E973C3C4CB5FB30B9F355F326B4A7C0 /* FitKit.debug.xcconfig */,
-				87624F15E8DD10A876E9ED3249E318C8 /* FitKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FitKit";
-			sourceTree = "<group>";
-		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,16 +192,6 @@
 				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		8757271CD4D5AC87DE62E4AEAE48CE43 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				456ECCA634148F86E4206194B5BC20D8 /* FitKit.podspec */,
-				2214571BC833882F48894E4E4BF69DF1 /* LICENSE */,
-				9521902421957AAFEB118B87E65134BA /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8832829C06B73FCE09DFAD2C41A2F047 /* Support Files */ = {
@@ -203,35 +217,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B48137D46A9D467C48FF0A45D7300E39 /* Development Pods */ = {
+		A389F5EF925AEDCBB13CF337B53CD3E5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA9C5EDC0FF7E0719ACD0995BD066CCD /* FitKit */,
+				DA2C8842214D8007CFFFD2888DAEC606 /* FitKit */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CA9C5EDC0FF7E0719ACD0995BD066CCD /* FitKit */ = {
-			isa = PBXGroup;
-			children = (
-				8757271CD4D5AC87DE62E4AEAE48CE43 /* Pod */,
-				5602E76B47D409E02D725299806F4481 /* Support Files */,
-				8C47555327608078004BE409 /* CGFloat+Ex.swift */,
-			);
-			name = FitKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B48137D46A9D467C48FF0A45D7300E39 /* Development Pods */,
+				A389F5EF925AEDCBB13CF337B53CD3E5 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				EFC12DBB242C95DD54F2F8CD7D441E8D /* Pods */,
 				3670C01999D11D2EB26927D4B1F80D77 /* Products */,
 				8EA5E72A2B5F2D4063A35409ED83B822 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DA2C8842214D8007CFFFD2888DAEC606 /* FitKit */ = {
+			isa = PBXGroup;
+			children = (
+				BC3F73FAF09A7CE46B1992CEDBE8C216 /* CGFloat+Ex.swift */,
+				DA61E14632B6EE3F91B206AF5054A895 /* CGPoint+Ex.swift */,
+				8FB25F0ECE5C08B647133CAFF02E38EF /* CGRect+Ex.swift */,
+				C0DB9AD6A1A346EE227F4BE134AB7EAC /* CGSize+Ex.swift */,
+				3F8A10C2D67B3D117F4D3D413A23B223 /* Constant.swift */,
+				F762F33E1E759492AE6AB689CEE25BBE /* FitKit.swift */,
+				B3C2478247C305C66376FA8ECBDF6079 /* Function.swift */,
+				06624C1289F6264BC20194D1C81254F0 /* Type.swift */,
+				2427B175EF33987A87ECA7441DD67049 /* Pod */,
+				1AAA1DFC9A1832362202D473FD05AD8C /* Support Files */,
+			);
+			name = FitKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		EFC12DBB242C95DD54F2F8CD7D441E8D /* Pods */ = {
@@ -248,17 +269,18 @@
 				479FDC8A3863DC0B938FD5660860C9D2 /* Device.generated.swift */,
 				8832829C06B73FCE09DFAD2C41A2F047 /* Support Files */,
 			);
+			name = DeviceKit;
 			path = DeviceKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5C6EE69BF4DB2F9E8F00E57DDF71C336 /* Headers */ = {
+		8D0C38454E127DE370A31006BA30D3C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46ADA5CE33D818AB145A612D424243C7 /* FitKit-umbrella.h in Headers */,
+				0C7056E6867181A4192C4447ED3FF170 /* FitKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,17 +305,17 @@
 /* Begin PBXNativeTarget section */
 		16CC5DB1F50D77FF0116C5E5239C6DF7 /* FitKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BF74B32F98828CC36C7588A9B8F2CD9 /* Build configuration list for PBXNativeTarget "FitKit" */;
+			buildConfigurationList = A8336D3A4A460965FA9AAFEA8CF018AD /* Build configuration list for PBXNativeTarget "FitKit" */;
 			buildPhases = (
-				5C6EE69BF4DB2F9E8F00E57DDF71C336 /* Headers */,
-				4D0BCB1B502D3CB4F5C26B70012B6A31 /* Sources */,
-				E565DA3E5AED6C119867763DEC9F4F2C /* Frameworks */,
-				C2FA2AFD39D2978858FDF4017059ECDC /* Resources */,
+				8D0C38454E127DE370A31006BA30D3C0 /* Headers */,
+				C4EAA74F5F46840BAAAA1AB78CE7C938 /* Sources */,
+				E297181A9046C519D9E359F9E8C7074C /* Frameworks */,
+				9DCA2FDF4C2E5D3D1525131D0E3B53EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D780049F96019ABEE7D760B72E4A7DAD /* PBXTargetDependency */,
+				4799FAA865960E66845464BA429852B2 /* PBXTargetDependency */,
 			);
 			name = FitKit;
 			productName = FitKit;
@@ -312,8 +334,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				4C86F84D78FEF4DF650167670ACAFA7B /* PBXTargetDependency */,
-				0289B850D5602E8C26CEB846EAEE3BAE /* PBXTargetDependency */,
+				A3222E079A25935A9F424A7EBC33A3F8 /* PBXTargetDependency */,
+				0F9837FDD4266AF767DAEDA6285FBF98 /* PBXTargetDependency */,
 			);
 			name = "Pods-FitKit_Example";
 			productName = Pods_FitKit_Example;
@@ -382,7 +404,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2FA2AFD39D2978858FDF4017059ECDC /* Resources */ = {
+		9DCA2FDF4C2E5D3D1525131D0E3B53EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,15 +422,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D0BCB1B502D3CB4F5C26B70012B6A31 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9AE3D1005C8FE4CE2AB366BD5A5341A /* FitKit-dummy.m in Sources */,
-				8C47555427608078004BE409 /* CGFloat+Ex.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B024EDE69B3C51D739853194CE746FE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,30 +431,111 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4EAA74F5F46840BAAAA1AB78CE7C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6654ADAE2545E6FB14E271B11B4320D /* CGFloat+Ex.swift in Sources */,
+				3547174B8F89856F9B1738A03DB39CEB /* CGPoint+Ex.swift in Sources */,
+				5303F486FB7D3FC159AE30F6FCDACFEE /* CGRect+Ex.swift in Sources */,
+				CB46596D17453D5D6F249B82D137153D /* CGSize+Ex.swift in Sources */,
+				F342F823AA1F57C845D977DED73F141E /* Constant.swift in Sources */,
+				9F2A958FFBEDA1100754CFE84C3B8E91 /* FitKit.swift in Sources */,
+				4271821EDD83E9F92C964B091AAF5650 /* FitKit-dummy.m in Sources */,
+				C5A13DFF9B7B486B0E4E8B3D313A927A /* Function.swift in Sources */,
+				BCA137C9EDE4FC59BA7A4A8499A84DDF /* Type.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0289B850D5602E8C26CEB846EAEE3BAE /* PBXTargetDependency */ = {
+		0F9837FDD4266AF767DAEDA6285FBF98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FitKit;
 			target = 16CC5DB1F50D77FF0116C5E5239C6DF7 /* FitKit */;
-			targetProxy = 030B391B4EA595A52B585234DF96B5F9 /* PBXContainerItemProxy */;
+			targetProxy = 05C1460D17E5DD6D6882B0A7395EF579 /* PBXContainerItemProxy */;
 		};
-		4C86F84D78FEF4DF650167670ACAFA7B /* PBXTargetDependency */ = {
+		4799FAA865960E66845464BA429852B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DeviceKit;
 			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
-			targetProxy = 71AF58F68775F6D481C57B23624420E9 /* PBXContainerItemProxy */;
+			targetProxy = 3C6C3D0BB8E940A7F346010A5F68213E /* PBXContainerItemProxy */;
 		};
-		D780049F96019ABEE7D760B72E4A7DAD /* PBXTargetDependency */ = {
+		A3222E079A25935A9F424A7EBC33A3F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DeviceKit;
 			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
-			targetProxy = F376B60EB5C54F616FD96CCE560245A5 /* PBXContainerItemProxy */;
+			targetProxy = F5188AE7F88553C821C05BBA721AD01D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		25080A4003080087466E7D2BD02175E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1255E4DB358F6CC8C1CCC8A1AF24B8C /* FitKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FitKit/FitKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FitKit/FitKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FitKit/FitKit.modulemap";
+				PRODUCT_MODULE_NAME = FitKit;
+				PRODUCT_NAME = FitKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BD179E8A5863F0C7A381354F79F0EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1841CDF5C6F6D206180CD37D82EFDDA /* FitKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FitKit/FitKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FitKit/FitKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FitKit/FitKit.modulemap";
+				PRODUCT_MODULE_NAME = FitKit;
+				PRODUCT_NAME = FitKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2E4FA3CBD6667CC5F010D8BAFBD4C5B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40F4D05BE161197088F5F47D47261CF6 /* Pods-FitKit_Example.release.xcconfig */;
@@ -476,38 +570,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8250AA5636231CA9E0EAC60D8CA88EB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E973C3C4CB5FB30B9F355F326B4A7C0 /* FitKit.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FitKit/FitKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FitKit/FitKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FitKit/FitKit.modulemap";
-				PRODUCT_MODULE_NAME = FitKit;
-				PRODUCT_NAME = FitKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		82A614B2AF62D5BB8DE37269255A2FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -596,7 +658,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -733,39 +796,6 @@
 			};
 			name = Debug;
 		};
-		E317BD55ED85821B54F756B35BB37181 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87624F15E8DD10A876E9ED3249E318C8 /* FitKit.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FitKit/FitKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FitKit/FitKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FitKit/FitKit.modulemap";
-				PRODUCT_MODULE_NAME = FitKit;
-				PRODUCT_NAME = FitKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -778,11 +808,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BF74B32F98828CC36C7588A9B8F2CD9 /* Build configuration list for PBXNativeTarget "FitKit" */ = {
+		A8336D3A4A460965FA9AAFEA8CF018AD /* Build configuration list for PBXNativeTarget "FitKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8250AA5636231CA9E0EAC60D8CA88EB5 /* Debug */,
-				E317BD55ED85821B54F756B35BB37181 /* Release */,
+				25080A4003080087466E7D2BD02175E6 /* Debug */,
+				2BD179E8A5863F0C7A381354F79F0EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
